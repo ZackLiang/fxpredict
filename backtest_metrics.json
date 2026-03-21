@@ -1,0 +1,130 @@
+{
+  "model_M3_Proposed": {
+    "display": "M3-Full (Ours)",
+    "gross": {
+      "sharpe": 3.4274,
+      "max_dd": -29.8062,
+      "calmar": 6.1221,
+      "cum_pnl": 264.4507
+    },
+    "net": {
+      "sharpe": 3.2192,
+      "max_dd": -30.0819,
+      "calmar": 5.6972,
+      "cum_pnl": 248.3737
+    },
+    "avg_turnover": 0.917118
+  },
+  "model_M2": {
+    "display": "M2-DualGraph",
+    "gross": {
+      "sharpe": 2.7512,
+      "max_dd": -30.5845,
+      "calmar": 4.7988,
+      "cum_pnl": 212.7024
+    },
+    "net": {
+      "sharpe": 2.5448,
+      "max_dd": -31.0461,
+      "calmar": 4.3727,
+      "cum_pnl": 196.7415
+    },
+    "avg_turnover": 0.910498
+  },
+  "model_M1": {
+    "display": "M1-Regime",
+    "gross": {
+      "sharpe": 1.7269,
+      "max_dd": -41.1374,
+      "calmar": 2.2527,
+      "cum_pnl": 134.2997
+    },
+    "net": {
+      "sharpe": 1.5346,
+      "max_dd": -42.3226,
+      "calmar": 1.9457,
+      "cum_pnl": 119.3386
+    },
+    "avg_turnover": 0.853458
+  },
+  "model_M0": {
+    "display": "M0-Mamba",
+    "gross": {
+      "sharpe": 1.2163,
+      "max_dd": -40.0069,
+      "calmar": 1.6631,
+      "cum_pnl": 96.428
+    },
+    "net": {
+      "sharpe": 1.0643,
+      "max_dd": -41.3826,
+      "calmar": 1.4069,
+      "cum_pnl": 84.3737
+    },
+    "avg_turnover": 0.68764
+  },
+  "model_tcn": {
+    "display": "TCN",
+    "gross": {
+      "sharpe": 3.0695,
+      "max_dd": -35.6605,
+      "calmar": 3.9563,
+      "cum_pnl": 204.466
+    },
+    "net": {
+      "sharpe": 2.8222,
+      "max_dd": -36.1751,
+      "calmar": 3.5856,
+      "cum_pnl": 187.9823
+    },
+    "avg_turnover": 0.940294
+  },
+  "model_lstm": {
+    "display": "LSTM",
+    "gross": {
+      "sharpe": 3.354,
+      "max_dd": -30.2013,
+      "calmar": 5.1297,
+      "cum_pnl": 224.5209
+    },
+    "net": {
+      "sharpe": 3.1971,
+      "max_dd": -30.5051,
+      "calmar": 4.8409,
+      "cum_pnl": 214.0105
+    },
+    "avg_turnover": 0.599559
+  },
+  "model_agcrn": {
+    "display": "AGCRN",
+    "gross": {
+      "sharpe": 2.0172,
+      "max_dd": -37.4576,
+      "calmar": 2.2057,
+      "cum_pnl": 119.7353
+    },
+    "net": {
+      "sharpe": 1.8537,
+      "max_dd": -38.411,
+      "calmar": 1.9765,
+      "cum_pnl": 110.0276
+    },
+    "avg_turnover": 0.553762
+  },
+  "model_itransformer": {
+    "display": "iTransformer",
+    "gross": {
+      "sharpe": 3.88,
+      "max_dd": -32.5919,
+      "calmar": 6.5532,
+      "cum_pnl": 309.5286
+    },
+    "net": {
+      "sharpe": 3.6083,
+      "max_dd": -32.7142,
+      "calmar": 6.0713,
+      "cum_pnl": 287.8423
+    },
+    "avg_turnover": 1.237091
+  }
+}

@@ -1,0 +1,184 @@
+Using specified device: cuda:0
+[ITRANSFORMER] 参数量: 160,833
+
+>>> Run 1/3  [ITRANSFORMER]  开始训练...
+| epoch   1 |  14.4s | loss 0.2425 | mae 0.1366 | rmse 0.7990 | da 0.5093 | tda 0.5080 | ic 0.0140 | icir 0.2777
+| epoch   2 |  16.2s | loss 0.1633 | mae 0.1162 | rmse 0.6981 | da 0.5093 | tda 0.5070 | ic 0.0084 | icir 0.1572
+| epoch   3 |  16.2s | loss 0.1433 | mae 0.1083 | rmse 0.6589 | da 0.5108 | tda 0.5044 | ic 0.0024 | icir 0.0459
+| epoch   4 |  15.8s | loss 0.1342 | mae 0.1019 | rmse 0.6253 | da 0.5066 | tda 0.5034 | ic 0.0023 | icir 0.0414
+| epoch   5 |  16.1s | loss 0.1264 | mae 0.0965 | rmse 0.6000 | da 0.5083 | tda 0.5031 | ic 0.0096 | icir 0.1940
+| epoch   6 |  16.1s | loss 0.1209 | mae 0.0934 | rmse 0.5855 | da 0.5085 | tda 0.5043 | ic 0.0137 | icir 0.2697
+| epoch   7 |  16.1s | loss 0.1170 | mae 0.0938 | rmse 0.5786 | da 0.5074 | tda 0.5018 | ic 0.0046 | icir 0.0783
+| epoch   8 |  16.2s | loss 0.1136 | mae 0.0899 | rmse 0.5646 | da 0.5103 | tda 0.5058 | ic 0.0156 | icir 0.3141
+| epoch   9 |  16.2s | loss 0.1116 | mae 0.0884 | rmse 0.5561 | da 0.5057 | tda 0.5005 | ic 0.0001 | icir 0.0020
+| epoch  10 |  16.1s | loss 0.1082 | mae 0.0879 | rmse 0.5537 | da 0.5098 | tda 0.5044 | ic 0.0051 | icir 0.0826
+| epoch  11 |  15.7s | loss 0.1072 | mae 0.0879 | rmse 0.5511 | da 0.5077 | tda 0.5021 | ic 0.0015 | icir 0.0247
+| epoch  12 |  15.9s | loss 0.1057 | mae 0.0851 | rmse 0.5413 | da 0.5097 | tda 0.5046 | ic 0.0034 | icir 0.0598
+| epoch  13 |  16.3s | loss 0.1048 | mae 0.0818 | rmse 0.5340 | da 0.5089 | tda 0.5057 | ic 0.0070 | icir 0.1175
+| epoch  14 |  16.2s | loss 0.1027 | mae 0.0814 | rmse 0.5303 | da 0.5066 | tda 0.5007 | ic 0.0003 | icir 0.0045
+| epoch  15 |  15.9s | loss 0.1019 | mae 0.0814 | rmse 0.5287 | da 0.5094 | tda 0.5067 | ic 0.0202 | icir 0.3459
+| epoch  16 |  16.2s | loss 0.1007 | mae 0.0804 | rmse 0.5269 | da 0.5066 | tda 0.5013 | ic -0.0035 | icir -0.0657
+| epoch  17 |  16.2s | loss 0.1002 | mae 0.0818 | rmse 0.5294 | da 0.5122 | tda 0.5082 | ic 0.0141 | icir 0.2385
+| epoch  18 |  15.9s | loss 0.0992 | mae 0.0873 | rmse 0.5366 | da 0.5092 | tda 0.5047 | ic 0.0016 | icir 0.0280
+| epoch  19 |  16.1s | loss 0.0984 | mae 0.0803 | rmse 0.5226 | da 0.5111 | tda 0.5078 | ic 0.0156 | icir 0.2577
+| epoch  20 |  16.2s | loss 0.0975 | mae 0.0796 | rmse 0.5187 | da 0.5081 | tda 0.5059 | ic 0.0073 | icir 0.1292
+| epoch  21 |  16.2s | loss 0.0968 | mae 0.0800 | rmse 0.5194 | da 0.5074 | tda 0.5018 | ic 0.0122 | icir 0.1869
+| epoch  22 |  16.0s | loss 0.0961 | mae 0.0887 | rmse 0.5421 | da 0.5102 | tda 0.5094 | ic 0.0064 | icir 0.0960
+| epoch  23 |  15.8s | loss 0.0960 | mae 0.0819 | rmse 0.5227 | da 0.5095 | tda 0.5067 | ic 0.0035 | icir 0.0664
+| epoch  24 |  16.1s | loss 0.0953 | mae 0.0839 | rmse 0.5270 | da 0.5085 | tda 0.5067 | ic -0.0014 | icir -0.0252
+| epoch  25 |  16.1s | loss 0.0950 | mae 0.0863 | rmse 0.5326 | da 0.5132 | tda 0.5117 | ic 0.0137 | icir 0.2031
+| epoch  26 |  16.0s | loss 0.0946 | mae 0.0900 | rmse 0.5425 | da 0.5094 | tda 0.5060 | ic 0.0011 | icir 0.0171
+| epoch  27 |  16.2s | loss 0.0943 | mae 0.0817 | rmse 0.5218 | da 0.5072 | tda 0.5060 | ic 0.0048 | icir 0.0773
+| epoch  28 |  16.3s | loss 0.0932 | mae 0.0964 | rmse 0.5613 | da 0.5080 | tda 0.5047 | ic -0.0003 | icir -0.0050
+| epoch  29 |  15.8s | loss 0.0934 | mae 0.0867 | rmse 0.5326 | da 0.5090 | tda 0.5071 | ic 0.0018 | icir 0.0285
+| epoch  30 |  16.1s | loss 0.0932 | mae 0.0864 | rmse 0.5329 | da 0.5074 | tda 0.5052 | ic 0.0028 | icir 0.0442
+| epoch  31 |  15.8s | loss 0.0927 | mae 0.0912 | rmse 0.5457 | da 0.5075 | tda 0.5039 | ic -0.0049 | icir -0.0737
+| epoch  32 |  16.1s | loss 0.0923 | mae 0.0907 | rmse 0.5461 | da 0.5100 | tda 0.5063 | ic -0.0001 | icir -0.0009
+| epoch  33 |  15.8s | loss 0.0922 | mae 0.0904 | rmse 0.5448 | da 0.5101 | tda 0.5053 | ic 0.0031 | icir 0.0451
+| epoch  34 |  15.1s | loss 0.0914 | mae 0.0893 | rmse 0.5390 | da 0.5085 | tda 0.5065 | ic -0.0003 | icir -0.0047
+| epoch  35 |  14.9s | loss 0.0915 | mae 0.0890 | rmse 0.5387 | da 0.5117 | tda 0.5070 | ic 0.0057 | icir 0.0808
+| epoch  36 |  16.0s | loss 0.0911 | mae 0.0845 | rmse 0.5255 | da 0.5110 | tda 0.5092 | ic 0.0143 | icir 0.2105
+| epoch  37 |  16.0s | loss 0.0905 | mae 0.0967 | rmse 0.5644 | da 0.5079 | tda 0.5035 | ic -0.0021 | icir -0.0317
+| epoch  38 |  16.2s | loss 0.0907 | mae 0.0919 | rmse 0.5525 | da 0.5091 | tda 0.5047 | ic 0.0066 | icir 0.0961
+| epoch  39 |  16.2s | loss 0.0903 | mae 0.0991 | rmse 0.5731 | da 0.5071 | tda 0.5036 | ic 0.0022 | icir 0.0332
+| epoch  40 |  15.8s | loss 0.0900 | mae 0.0911 | rmse 0.5461 | da 0.5080 | tda 0.5040 | ic 0.0009 | icir 0.0132
+| epoch  41 |  16.3s | loss 0.0902 | mae 0.0957 | rmse 0.5616 | da 0.5095 | tda 0.5053 | ic 0.0021 | icir 0.0305
+| epoch  42 |  16.2s | loss 0.0894 | mae 0.0956 | rmse 0.5585 | da 0.5082 | tda 0.5034 | ic 0.0005 | icir 0.0067
+| epoch  43 |  16.0s | loss 0.0893 | mae 0.0901 | rmse 0.5415 | da 0.5100 | tda 0.5059 | ic 0.0006 | icir 0.0085
+| epoch  44 |  15.8s | loss 0.0892 | mae 0.0916 | rmse 0.5471 | da 0.5099 | tda 0.5047 | ic 0.0044 | icir 0.0629
+| epoch  45 |  16.2s | loss 0.0889 | mae 0.0952 | rmse 0.5566 | da 0.5072 | tda 0.5050 | ic 0.0017 | icir 0.0255
+| epoch  46 |  15.8s | loss 0.0887 | mae 0.0922 | rmse 0.5474 | da 0.5076 | tda 0.5055 | ic 0.0001 | icir 0.0007
+| epoch  47 |  15.7s | loss 0.0885 | mae 0.0942 | rmse 0.5549 | da 0.5076 | tda 0.5039 | ic 0.0017 | icir 0.0241
+| epoch  48 |  16.2s | loss 0.0883 | mae 0.1043 | rmse 0.5898 | da 0.5076 | tda 0.5039 | ic 0.0003 | icir 0.0049
+| epoch  49 |  16.1s | loss 0.0881 | mae 0.0949 | rmse 0.5593 | da 0.5084 | tda 0.5056 | ic 0.0037 | icir 0.0547
+| epoch  50 |  16.2s | loss 0.0877 | mae 0.0926 | rmse 0.5513 | da 0.5081 | tda 0.5044 | ic 0.0023 | icir 0.0343
+Run 1 Final Test [ITRANSFORMER]: MAE 0.0999 | RMSE 0.6936 | DA 0.5077 | tDA 0.5060 | IC 0.0215 | ICIR 0.3122
+[ITRANSFORMER] 参数量: 160,833
+
+>>> Run 2/3  [ITRANSFORMER]  开始训练...
+| epoch   1 |  16.1s | loss 0.2464 | mae 0.1333 | rmse 0.7757 | da 0.5088 | tda 0.5083 | ic 0.0100 | icir 0.1832
+| epoch   2 |  16.2s | loss 0.1594 | mae 0.1148 | rmse 0.6907 | da 0.5090 | tda 0.5063 | ic 0.0004 | icir 0.0074
+| epoch   3 |  16.1s | loss 0.1429 | mae 0.1078 | rmse 0.6477 | da 0.5071 | tda 0.5038 | ic 0.0031 | icir 0.0547
+| epoch   4 |  15.8s | loss 0.1332 | mae 0.0999 | rmse 0.6234 | da 0.5082 | tda 0.5042 | ic 0.0011 | icir 0.0170
+| epoch   5 |  16.2s | loss 0.1257 | mae 0.0963 | rmse 0.6034 | da 0.5100 | tda 0.5046 | ic 0.0057 | icir 0.0918
+| epoch   6 |  16.3s | loss 0.1208 | mae 0.0927 | rmse 0.5867 | da 0.5089 | tda 0.5046 | ic 0.0065 | icir 0.1036
+| epoch   7 |  16.0s | loss 0.1173 | mae 0.0916 | rmse 0.5778 | da 0.5076 | tda 0.5044 | ic 0.0098 | icir 0.1706
+| epoch   8 |  15.8s | loss 0.1142 | mae 0.0891 | rmse 0.5664 | da 0.5100 | tda 0.5048 | ic 0.0042 | icir 0.0687
+| epoch   9 |  15.9s | loss 0.1113 | mae 0.0871 | rmse 0.5572 | da 0.5068 | tda 0.5015 | ic 0.0040 | icir 0.0652
+| epoch  10 |  16.2s | loss 0.1096 | mae 0.0861 | rmse 0.5523 | da 0.5117 | tda 0.5069 | ic 0.0078 | icir 0.1229
+| epoch  11 |  15.6s | loss 0.1068 | mae 0.0888 | rmse 0.5577 | da 0.5105 | tda 0.5067 | ic 0.0105 | icir 0.1572
+| epoch  12 |  15.7s | loss 0.1059 | mae 0.0841 | rmse 0.5452 | da 0.5102 | tda 0.5044 | ic 0.0096 | icir 0.1497
+| epoch  13 |  16.2s | loss 0.1039 | mae 0.0834 | rmse 0.5400 | da 0.5105 | tda 0.5080 | ic 0.0159 | icir 0.2555
+| epoch  14 |  16.2s | loss 0.1031 | mae 0.0937 | rmse 0.5665 | da 0.5122 | tda 0.5077 | ic 0.0052 | icir 0.0783
+| epoch  15 |  15.8s | loss 0.1016 | mae 0.0838 | rmse 0.5360 | da 0.5126 | tda 0.5094 | ic 0.0126 | icir 0.1845
+| epoch  16 |  16.1s | loss 0.1010 | mae 0.0835 | rmse 0.5352 | da 0.5109 | tda 0.5081 | ic 0.0047 | icir 0.0726
+| epoch  17 |  16.1s | loss 0.1000 | mae 0.0856 | rmse 0.5387 | da 0.5134 | tda 0.5092 | ic 0.0078 | icir 0.1150
+| epoch  18 |  15.4s | loss 0.0992 | mae 0.0836 | rmse 0.5337 | da 0.5130 | tda 0.5086 | ic 0.0117 | icir 0.1640
+| epoch  19 |  14.8s | loss 0.0981 | mae 0.0827 | rmse 0.5280 | da 0.5086 | tda 0.5065 | ic 0.0044 | icir 0.0728
+| epoch  20 |  15.9s | loss 0.0972 | mae 0.0842 | rmse 0.5323 | da 0.5141 | tda 0.5104 | ic 0.0106 | icir 0.1630
+| epoch  21 |  16.1s | loss 0.0971 | mae 0.0912 | rmse 0.5509 | da 0.5110 | tda 0.5093 | ic 0.0019 | icir 0.0283
+| epoch  22 |  15.8s | loss 0.0961 | mae 0.0867 | rmse 0.5360 | da 0.5135 | tda 0.5079 | ic 0.0060 | icir 0.0914
+| epoch  23 |  16.1s | loss 0.0956 | mae 0.0931 | rmse 0.5576 | da 0.5089 | tda 0.5046 | ic -0.0037 | icir -0.0574
+| epoch  24 |  16.1s | loss 0.0953 | mae 0.0825 | rmse 0.5263 | da 0.5112 | tda 0.5056 | ic 0.0125 | icir 0.1938
+| epoch  25 |  16.3s | loss 0.0951 | mae 0.0879 | rmse 0.5402 | da 0.5132 | tda 0.5080 | ic 0.0092 | icir 0.1398
+| epoch  26 |  16.0s | loss 0.0941 | mae 0.0855 | rmse 0.5319 | da 0.5120 | tda 0.5089 | ic 0.0025 | icir 0.0395
+| epoch  27 |  16.2s | loss 0.0935 | mae 0.0876 | rmse 0.5389 | da 0.5118 | tda 0.5076 | ic 0.0058 | icir 0.0807
+| epoch  28 |  16.2s | loss 0.0928 | mae 0.0886 | rmse 0.5385 | da 0.5117 | tda 0.5084 | ic 0.0027 | icir 0.0422
+| epoch  29 |  15.9s | loss 0.0928 | mae 0.0907 | rmse 0.5476 | da 0.5127 | tda 0.5066 | ic 0.0044 | icir 0.0662
+| epoch  30 |  15.9s | loss 0.0919 | mae 0.0925 | rmse 0.5504 | da 0.5106 | tda 0.5093 | ic 0.0027 | icir 0.0422
+| epoch  31 |  16.0s | loss 0.0922 | mae 0.0894 | rmse 0.5416 | da 0.5122 | tda 0.5102 | ic 0.0043 | icir 0.0672
+| epoch  32 |  16.2s | loss 0.0916 | mae 0.0894 | rmse 0.5415 | da 0.5131 | tda 0.5113 | ic 0.0055 | icir 0.0793
+| epoch  33 |  15.8s | loss 0.0915 | mae 0.0904 | rmse 0.5438 | da 0.5094 | tda 0.5086 | ic 0.0027 | icir 0.0396
+| epoch  34 |  16.2s | loss 0.0916 | mae 0.1075 | rmse 0.6047 | da 0.5083 | tda 0.5061 | ic 0.0007 | icir 0.0096
+| epoch  35 |  16.1s | loss 0.0910 | mae 0.0915 | rmse 0.5489 | da 0.5107 | tda 0.5097 | ic 0.0047 | icir 0.0682
+| epoch  36 |  16.1s | loss 0.0906 | mae 0.0847 | rmse 0.5289 | da 0.5095 | tda 0.5080 | ic 0.0036 | icir 0.0495
+| epoch  37 |  15.9s | loss 0.0905 | mae 0.0920 | rmse 0.5505 | da 0.5091 | tda 0.5049 | ic -0.0015 | icir -0.0228
+| epoch  38 |  16.2s | loss 0.0901 | mae 0.0941 | rmse 0.5596 | da 0.5104 | tda 0.5057 | ic 0.0044 | icir 0.0616
+| epoch  39 |  16.2s | loss 0.0897 | mae 0.0928 | rmse 0.5518 | da 0.5093 | tda 0.5069 | ic -0.0006 | icir -0.0087
+| epoch  40 |  15.8s | loss 0.0896 | mae 0.0962 | rmse 0.5676 | da 0.5101 | tda 0.5066 | ic 0.0014 | icir 0.0209
+| epoch  41 |  16.1s | loss 0.0893 | mae 0.1051 | rmse 0.5953 | da 0.5083 | tda 0.5063 | ic -0.0007 | icir -0.0099
+| epoch  42 |  15.6s | loss 0.0887 | mae 0.0928 | rmse 0.5499 | da 0.5085 | tda 0.5064 | ic -0.0039 | icir -0.0596
+| epoch  43 |  15.7s | loss 0.0888 | mae 0.0996 | rmse 0.5739 | da 0.5075 | tda 0.5058 | ic -0.0016 | icir -0.0232
+| epoch  44 |  15.8s | loss 0.0886 | mae 0.0922 | rmse 0.5476 | da 0.5088 | tda 0.5087 | ic 0.0003 | icir 0.0043
+| epoch  45 |  16.2s | loss 0.0883 | mae 0.0965 | rmse 0.5664 | da 0.5097 | tda 0.5055 | ic 0.0000 | icir 0.0007
+| epoch  46 |  16.3s | loss 0.0883 | mae 0.0990 | rmse 0.5714 | da 0.5053 | tda 0.5041 | ic -0.0044 | icir -0.0658
+| epoch  47 |  16.0s | loss 0.0882 | mae 0.0984 | rmse 0.5718 | da 0.5088 | tda 0.5057 | ic -0.0010 | icir -0.0140
+| epoch  48 |  15.9s | loss 0.0878 | mae 0.1010 | rmse 0.5798 | da 0.5071 | tda 0.5049 | ic -0.0011 | icir -0.0167
+| epoch  49 |  16.1s | loss 0.0878 | mae 0.0930 | rmse 0.5515 | da 0.5088 | tda 0.5051 | ic 0.0052 | icir 0.0780
+| epoch  50 |  16.1s | loss 0.0880 | mae 0.0950 | rmse 0.5575 | da 0.5094 | tda 0.5063 | ic 0.0050 | icir 0.0706
+Run 2 Final Test [ITRANSFORMER]: MAE 0.1044 | RMSE 0.7033 | DA 0.5050 | tDA 0.4983 | IC -0.0073 | ICIR -0.1196
+[ITRANSFORMER] 参数量: 160,833
+
+>>> Run 3/3  [ITRANSFORMER]  开始训练...
+| epoch   1 |  15.9s | loss 0.2498 | mae 0.1429 | rmse 0.8278 | da 0.5096 | tda 0.5048 | ic 0.0122 | icir 0.2199
+| epoch   2 |  15.7s | loss 0.1670 | mae 0.1214 | rmse 0.7203 | da 0.5104 | tda 0.5063 | ic 0.0091 | icir 0.1498
+| epoch   3 |  14.7s | loss 0.1477 | mae 0.1114 | rmse 0.6760 | da 0.5103 | tda 0.5047 | ic 0.0097 | icir 0.1754
+| epoch   4 |  15.3s | loss 0.1369 | mae 0.1053 | rmse 0.6479 | da 0.5119 | tda 0.5058 | ic 0.0095 | icir 0.1742
+| epoch   5 |  16.2s | loss 0.1297 | mae 0.1021 | rmse 0.6239 | da 0.5073 | tda 0.5009 | ic 0.0048 | icir 0.0764
+| epoch   6 |  16.2s | loss 0.1233 | mae 0.0974 | rmse 0.6037 | da 0.5072 | tda 0.5017 | ic 0.0029 | icir 0.0497
+| epoch   7 |  16.1s | loss 0.1194 | mae 0.0943 | rmse 0.5888 | da 0.5099 | tda 0.5029 | ic 0.0027 | icir 0.0464
+| epoch   8 |  15.8s | loss 0.1158 | mae 0.0950 | rmse 0.5857 | da 0.5074 | tda 0.5009 | ic 0.0045 | icir 0.0737
+| epoch   9 |  16.1s | loss 0.1124 | mae 0.0887 | rmse 0.5631 | da 0.5099 | tda 0.5029 | ic 0.0081 | icir 0.1355
+| epoch  10 |  16.3s | loss 0.1105 | mae 0.0916 | rmse 0.5662 | da 0.5081 | tda 0.5032 | ic 0.0063 | icir 0.1031
+| epoch  11 |  16.0s | loss 0.1081 | mae 0.0887 | rmse 0.5606 | da 0.5082 | tda 0.5038 | ic 0.0023 | icir 0.0412
+| epoch  12 |  16.1s | loss 0.1066 | mae 0.0858 | rmse 0.5473 | da 0.5096 | tda 0.5064 | ic 0.0062 | icir 0.1016
+| epoch  13 |  16.1s | loss 0.1051 | mae 0.0830 | rmse 0.5425 | da 0.5095 | tda 0.5075 | ic 0.0078 | icir 0.1199
+| epoch  14 |  16.0s | loss 0.1036 | mae 0.0908 | rmse 0.5588 | da 0.5119 | tda 0.5076 | ic 0.0127 | icir 0.1936
+| epoch  15 |  15.6s | loss 0.1025 | mae 0.0862 | rmse 0.5426 | da 0.5113 | tda 0.5083 | ic 0.0060 | icir 0.0953
+| epoch  16 |  16.2s | loss 0.1015 | mae 0.0810 | rmse 0.5318 | da 0.5099 | tda 0.5041 | ic 0.0057 | icir 0.0986
+| epoch  17 |  16.2s | loss 0.1002 | mae 0.0855 | rmse 0.5354 | da 0.5114 | tda 0.5073 | ic 0.0091 | icir 0.1442
+| epoch  18 |  16.0s | loss 0.0993 | mae 0.0820 | rmse 0.5314 | da 0.5088 | tda 0.5065 | ic 0.0067 | icir 0.1110
+| epoch  19 |  16.0s | loss 0.0984 | mae 0.0838 | rmse 0.5351 | da 0.5122 | tda 0.5068 | ic 0.0161 | icir 0.2524
+| epoch  20 |  16.2s | loss 0.0979 | mae 0.0857 | rmse 0.5353 | da 0.5113 | tda 0.5110 | ic 0.0130 | icir 0.1986
+| epoch  21 |  16.2s | loss 0.0971 | mae 0.0819 | rmse 0.5292 | da 0.5110 | tda 0.5070 | ic 0.0154 | icir 0.2511
+| epoch  22 |  15.9s | loss 0.0963 | mae 0.0844 | rmse 0.5303 | da 0.5075 | tda 0.5059 | ic -0.0001 | icir -0.0025
+| epoch  23 |  15.8s | loss 0.0954 | mae 0.0840 | rmse 0.5295 | da 0.5126 | tda 0.5093 | ic 0.0097 | icir 0.1380
+| epoch  24 |  16.1s | loss 0.0952 | mae 0.0887 | rmse 0.5373 | da 0.5086 | tda 0.5077 | ic 0.0001 | icir 0.0013
+| epoch  25 |  16.1s | loss 0.0947 | mae 0.0799 | rmse 0.5189 | da 0.5110 | tda 0.5121 | ic 0.0170 | icir 0.2883
+| epoch  26 |  15.6s | loss 0.0940 | mae 0.0928 | rmse 0.5567 | da 0.5101 | tda 0.5050 | ic 0.0036 | icir 0.0495
+| epoch  27 |  16.1s | loss 0.0938 | mae 0.0837 | rmse 0.5291 | da 0.5110 | tda 0.5075 | ic 0.0079 | icir 0.1150
+| epoch  28 |  16.2s | loss 0.0935 | mae 0.0927 | rmse 0.5494 | da 0.5107 | tda 0.5092 | ic -0.0014 | icir -0.0232
+| epoch  29 |  16.0s | loss 0.0931 | mae 0.0933 | rmse 0.5521 | da 0.5082 | tda 0.5059 | ic -0.0027 | icir -0.0433
+| epoch  30 |  16.0s | loss 0.0922 | mae 0.0847 | rmse 0.5272 | da 0.5109 | tda 0.5090 | ic 0.0027 | icir 0.0394
+| epoch  31 |  16.2s | loss 0.0921 | mae 0.0903 | rmse 0.5424 | da 0.5096 | tda 0.5075 | ic -0.0018 | icir -0.0280
+| epoch  32 |  16.2s | loss 0.0919 | mae 0.0920 | rmse 0.5501 | da 0.5096 | tda 0.5070 | ic -0.0026 | icir -0.0382
+| epoch  33 |  15.8s | loss 0.0913 | mae 0.0913 | rmse 0.5454 | da 0.5079 | tda 0.5068 | ic -0.0042 | icir -0.0683
+| epoch  34 |  16.2s | loss 0.0908 | mae 0.0823 | rmse 0.5215 | da 0.5116 | tda 0.5113 | ic 0.0004 | icir 0.0071
+| epoch  35 |  16.2s | loss 0.0908 | mae 0.0920 | rmse 0.5466 | da 0.5094 | tda 0.5082 | ic 0.0020 | icir 0.0303
+| epoch  36 |  16.2s | loss 0.0906 | mae 0.0932 | rmse 0.5494 | da 0.5090 | tda 0.5071 | ic -0.0034 | icir -0.0544
+| epoch  37 |  15.0s | loss 0.0904 | mae 0.0962 | rmse 0.5615 | da 0.5082 | tda 0.5060 | ic -0.0011 | icir -0.0164
+| epoch  38 |  14.8s | loss 0.0902 | mae 0.0993 | rmse 0.5713 | da 0.5082 | tda 0.5060 | ic -0.0016 | icir -0.0234
+| epoch  39 |  16.0s | loss 0.0898 | mae 0.0967 | rmse 0.5619 | da 0.5083 | tda 0.5067 | ic 0.0024 | icir 0.0365
+| epoch  40 |  16.0s | loss 0.0894 | mae 0.0892 | rmse 0.5381 | da 0.5088 | tda 0.5073 | ic -0.0012 | icir -0.0183
+| epoch  41 |  16.0s | loss 0.0895 | mae 0.0963 | rmse 0.5632 | da 0.5080 | tda 0.5041 | ic -0.0003 | icir -0.0044
+| epoch  42 |  16.2s | loss 0.0893 | mae 0.0920 | rmse 0.5483 | da 0.5049 | tda 0.5032 | ic -0.0079 | icir -0.1257
+| epoch  43 |  16.2s | loss 0.0891 | mae 0.0957 | rmse 0.5611 | da 0.5085 | tda 0.5066 | ic 0.0019 | icir 0.0311
+| epoch  44 |  15.8s | loss 0.0885 | mae 0.1057 | rmse 0.5963 | da 0.5061 | tda 0.5034 | ic -0.0032 | icir -0.0487
+| epoch  45 |  16.2s | loss 0.0885 | mae 0.0957 | rmse 0.5574 | da 0.5065 | tda 0.5054 | ic -0.0063 | icir -0.0969
+| epoch  46 |  16.2s | loss 0.0884 | mae 0.0910 | rmse 0.5433 | da 0.5099 | tda 0.5078 | ic -0.0014 | icir -0.0217
+| epoch  47 |  16.1s | loss 0.0883 | mae 0.0995 | rmse 0.5689 | da 0.5071 | tda 0.5048 | ic -0.0048 | icir -0.0737
+| epoch  48 |  15.9s | loss 0.0880 | mae 0.1006 | rmse 0.5755 | da 0.5080 | tda 0.5041 | ic -0.0017 | icir -0.0274
+| epoch  49 |  15.9s | loss 0.0880 | mae 0.0908 | rmse 0.5407 | da 0.5081 | tda 0.5072 | ic -0.0027 | icir -0.0422
+| epoch  50 |  16.1s | loss 0.0878 | mae 0.0941 | rmse 0.5514 | da 0.5078 | tda 0.5045 | ic -0.0036 | icir -0.0593
+Run 3 Final Test [ITRANSFORMER]: MAE 0.1016 | RMSE 0.6963 | DA 0.5067 | tDA 0.5024 | IC 0.0070 | ICIR 0.1026
+
+=======================================================
+[ITRANSFORMER]  Summary over 3 runs
+=======================================================
+Metric     | Mean       | Std       
+--------------------------------------
+MAE        | 0.1020     | 0.0018    
+RMSE       | 0.6977     | 0.0041    
+DA         | 0.5065     | 0.0011    
+TDA        | 0.5022     | 0.0031    
+IC         | 0.0071     | 0.0118    
+ICIR       | 0.0984     | 0.1763    
+=======================================================
+
+[导出] 核心指标已写入 output/latest_metrics_itransformer.json
+/home/sankuai/conda/envs/fxpredict/lib/python3.10/site-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+/home/sankuai/conda/envs/fxpredict/lib/python3.10/site-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+
+

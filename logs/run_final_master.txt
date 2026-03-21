@@ -1,0 +1,26 @@
+nohup: ignoring input
+============================================================
+  并行消融实验 (严格单一变量控制)
+  消融组 M0~M3 并行 + Baselines 并行（全组统一 batch=128）
+  硬件: 139GB VRAM + 193GB RAM，8 进程并发安全可行
+  每个模型: 50epoch × 3runs × batch128
+  开始时间: 2026-03-16 00:26:41
+============================================================
+
+>>> [00:26:41] 并行启动 Baselines（lstm / agcrn / itransformer / tcn）...
+  Baselines PID: lstm=1113467  agcrn=1113468  itransformer=1113469  tcn=1113470
+
+>>> [00:26:41] 并行启动消融组（M0 / M1 / M2 / M3）...
+  消融组 PID: M0=1113472  M1=1113473  M2=1113474  M3=1113475
+
+  全部 8 个进程已在后台并行运行
+  实时查看进度示例：
+    tail -f logs/log_M3.txt
+    tail -f logs/log_lstm.txt
+    watch -n 30 nvidia-smi
+============================================================
+
+>>> 等待消融组完成...
+>>> [15:07:54] M0-clean 完毕 (exit=0)
+run_final.sh: line 207: syntax error near unexpected token `('
+run_final.sh: line 207: `lean 完毕 (exit=$?)"'

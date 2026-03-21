@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+
+
+
+# 大压缩包
+*.zip
+
+# 模型权重（体积大，不适合版本控制）
+model/
+
+# 数据文件（原始价格数据较大）
+# data/       ← 根据需要决定是否忽略，这里保留data目录
+
+# 临时脚本（以_开头的辅助脚本）
+_gpu1_after_baselines.sh
+_run_gpu1_baselines.sh
+_analyze_data.py
+_analyze_horizon.py
+_verify_m4.py
+
+# 各种临时检查脚本
+check_da.py
+check_scale.py
+
+# nohup输出
+nohup.out
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+backup_v2_20260309_1524/

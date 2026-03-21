@@ -1,0 +1,673 @@
+Using specified device: cuda:0
+Loading static graph from: ./data/sensor_graph/adj_mx.pkl
+Static graph loaded and normalized successfully.
+
+>>> Run 1/3 Begin Training...
+iter:  0 | loss: 0.813
+iter:100 | loss: 0.210
+iter:200 | loss: 0.173
+| end of epoch   1 | time: 556.47s | loss 0.2881 | mae 0.1144 | rmse 0.6827 | da 0.5070 | tda 0.5099 | ic 0.0204(ema:0.0204) | icir 0.3750
+iter:  0 | loss: 0.144
+iter:100 | loss: 0.137
+iter:200 | loss: 0.129
+| end of epoch   2 | time: 554.36s | loss 0.1405 | mae 0.1027 | rmse 0.6111 | da 0.5083 | tda 0.5081 | ic 0.0110(ema:0.0176) | icir 0.2113
+iter:  0 | loss: 0.146
+iter:100 | loss: 0.135
+iter:200 | loss: 0.119
+| end of epoch   3 | time: 554.67s | loss 0.1250 | mae 0.0994 | rmse 0.5835 | da 0.5071 | tda 0.5092 | ic 0.0053(ema:0.0139) | icir 0.1037
+iter:  0 | loss: 0.128
+iter:100 | loss: 0.103
+iter:200 | loss: 0.102
+| end of epoch   4 | time: 554.64s | loss 0.1158 | mae 0.0891 | rmse 0.5491 | da 0.5087 | tda 0.5103 | ic 0.0125(ema:0.0135) | icir 0.2371
+iter:  0 | loss: 0.117
+iter:100 | loss: 0.111
+iter:200 | loss: 0.093
+| end of epoch   5 | time: 542.64s | loss 0.1092 | mae 0.0869 | rmse 0.5381 | da 0.5144 | tda 0.5114 | ic 0.0088(ema:0.0121) | icir 0.1663
+  [Epoch 5 Test] MAE 0.1090 | RMSE 0.7160 | DA 0.5083 | tDA 0.5062 | IC -0.0045 | ICIR -0.0767 | DA_trend 0.5098 | DA_range 0.5043 | CCC 0.5032
+iter:  0 | loss: 0.113
+iter:100 | loss: 0.109
+iter:200 | loss: 0.104
+| end of epoch   6 | time: 507.11s | loss 0.1054 | mae 0.0803 | rmse 0.5239 | da 0.5043 | tda 0.4998 | ic 0.0017(ema:0.0090) | icir 0.0307
+iter:  0 | loss: 0.115
+iter:100 | loss: 0.110
+iter:200 | loss: 0.086
+| end of epoch   7 | time: 506.73s | loss 0.1008 | mae 0.0788 | rmse 0.5137 | da 0.5077 | tda 0.5069 | ic 0.0059(ema:0.0080) | icir 0.1151
+iter:  0 | loss: 0.096
+iter:100 | loss: 0.085
+iter:200 | loss: 0.098
+| end of epoch   8 | time: 505.80s | loss 0.0990 | mae 0.0753 | rmse 0.5078 | da 0.5116 | tda 0.5082 | ic 0.0150(ema:0.0101) | icir 0.2535
+iter:  0 | loss: 0.106
+iter:100 | loss: 0.092
+iter:200 | loss: 0.091
+| end of epoch   9 | time: 505.34s | loss 0.0967 | mae 0.0754 | rmse 0.5056 | da 0.5079 | tda 0.5054 | ic 0.0043(ema:0.0084) | icir 0.0768
+iter:  0 | loss: 0.084
+iter:100 | loss: 0.112
+iter:200 | loss: 0.087
+| end of epoch  10 | time: 506.56s | loss 0.0963 | mae 0.0766 | rmse 0.5051 | da 0.5079 | tda 0.5058 | ic 0.0055(ema:0.0075) | icir 0.0993
+  [Epoch 10 Test] MAE 0.0949 | RMSE 0.6715 | DA 0.5082 | tDA 0.5133 | IC 0.0268 | ICIR 0.4015 | DA_trend 0.5085 | DA_range 0.5072 | CCC 0.5101
+iter:  0 | loss: 0.084
+iter:100 | loss: 0.091
+iter:200 | loss: 0.083
+| end of epoch  11 | time: 506.16s | loss 0.0958 | mae 0.0744 | rmse 0.5038 | da 0.5055 | tda 0.5028 | ic 0.0043(ema:0.0066) | icir 0.0825
+iter:  0 | loss: 0.099
+iter:100 | loss: 0.094
+iter:200 | loss: 0.105
+| end of epoch  12 | time: 506.36s | loss 0.0949 | mae 0.0735 | rmse 0.5024 | da 0.5089 | tda 0.5041 | ic 0.0072(ema:0.0067) | icir 0.1190
+iter:  0 | loss: 0.086
+iter:100 | loss: 0.103
+iter:200 | loss: 0.105
+| end of epoch  13 | time: 506.48s | loss 0.0944 | mae 0.0796 | rmse 0.5088 | da 0.5005 | tda 0.4946 | ic 0.0044(ema:0.0061) | icir 0.0756
+iter:  0 | loss: 0.094
+iter:100 | loss: 0.082
+iter:200 | loss: 0.095
+| end of epoch  14 | time: 506.06s | loss 0.0945 | mae 0.0779 | rmse 0.5063 | da 0.5030 | tda 0.4976 | ic 0.0099(ema:0.0072) | icir 0.1650
+iter:  0 | loss: 0.086
+iter:100 | loss: 0.085
+iter:200 | loss: 0.083
+| end of epoch  15 | time: 506.33s | loss 0.0936 | mae 0.0823 | rmse 0.5130 | da 0.4986 | tda 0.4917 | ic 0.0048(ema:0.0065) | icir 0.0791
+  [Epoch 15 Test] MAE 0.1017 | RMSE 0.6812 | DA 0.4941 | tDA 0.4880 | IC -0.0231 | ICIR -0.3728 | DA_trend 0.4917 | DA_range 0.5005 | CCC 0.4819
+iter:  0 | loss: 0.105
+iter:100 | loss: 0.093
+iter:200 | loss: 0.092
+| end of epoch  16 | time: 466.35s | loss 0.0932 | mae 0.0733 | rmse 0.5002 | da 0.5060 | tda 0.5038 | ic 0.0136(ema:0.0086) | icir 0.2386
+iter:  0 | loss: 0.086
+iter:100 | loss: 0.100
+iter:200 | loss: 0.091
+| end of epoch  17 | time: 434.72s | loss 0.0937 | mae 0.0791 | rmse 0.5095 | da 0.5011 | tda 0.4940 | ic 0.0043(ema:0.0073) | icir 0.0765
+iter:  0 | loss: 0.093
+iter:100 | loss: 0.097
+iter:200 | loss: 0.091
+| end of epoch  18 | time: 434.69s | loss 0.0928 | mae 0.0739 | rmse 0.5007 | da 0.5052 | tda 0.5048 | ic 0.0015(ema:0.0056) | icir 0.0295
+iter:  0 | loss: 0.087
+iter:100 | loss: 0.090
+iter:200 | loss: 0.079
+| end of epoch  19 | time: 435.60s | loss 0.0930 | mae 0.0762 | rmse 0.5028 | da 0.5059 | tda 0.5074 | ic -0.0018(ema:0.0034) | icir -0.0291
+iter:  0 | loss: 0.084
+iter:100 | loss: 0.086
+iter:200 | loss: 0.100
+| end of epoch  20 | time: 435.46s | loss 0.0926 | mae 0.0775 | rmse 0.5043 | da 0.5082 | tda 0.5069 | ic 0.0037(ema:0.0035) | icir 0.0561
+  [Epoch 20 Test] MAE 0.0959 | RMSE 0.6706 | DA 0.5057 | tDA 0.5105 | IC 0.0122 | ICIR 0.2025 | DA_trend 0.5065 | DA_range 0.5036 | CCC 0.5088
+iter:  0 | loss: 0.113
+iter:100 | loss: 0.084
+iter:200 | loss: 0.097
+| end of epoch  21 | time: 435.55s | loss 0.0923 | mae 0.0742 | rmse 0.5016 | da 0.5055 | tda 0.5018 | ic 0.0043(ema:0.0037) | icir 0.0736
+iter:  0 | loss: 0.088
+iter:100 | loss: 0.094
+iter:200 | loss: 0.098
+| end of epoch  22 | time: 435.61s | loss 0.0931 | mae 0.0800 | rmse 0.5085 | da 0.5011 | tda 0.4972 | ic 0.0137(ema:0.0067) | icir 0.2243
+iter:  0 | loss: 0.092
+iter:100 | loss: 0.095
+iter:200 | loss: 0.086
+| end of epoch  23 | time: 434.81s | loss 0.0927 | mae 0.0747 | rmse 0.5022 | da 0.5035 | tda 0.5060 | ic 0.0016(ema:0.0052) | icir 0.0297
+iter:  0 | loss: 0.085
+iter:100 | loss: 0.099
+iter:200 | loss: 0.076
+| end of epoch  24 | time: 435.56s | loss 0.0929 | mae 0.0778 | rmse 0.5038 | da 0.5048 | tda 0.5075 | ic 0.0019(ema:0.0042) | icir 0.0311
+iter:  0 | loss: 0.091
+iter:100 | loss: 0.091
+iter:200 | loss: 0.098
+| end of epoch  25 | time: 434.57s | loss 0.0923 | mae 0.0736 | rmse 0.5003 | da 0.5018 | tda 0.4982 | ic -0.0110(ema:-0.0003) | icir -0.2116
+  [Epoch 25 Test] MAE 0.0917 | RMSE 0.6652 | DA 0.5021 | tDA 0.5038 | IC 0.0105 | ICIR 0.1495 | DA_trend 0.5028 | DA_range 0.5003 | CCC 0.5024
+iter:  0 | loss: 0.080
+iter:100 | loss: 0.097
+iter:200 | loss: 0.101
+| end of epoch  26 | time: 435.64s | loss 0.0927 | mae 0.0746 | rmse 0.5007 | da 0.5007 | tda 0.5035 | ic -0.0130(ema:-0.0041) | icir -0.2441
+iter:  0 | loss: 0.095
+iter:100 | loss: 0.096
+iter:200 | loss: 0.088
+| end of epoch  27 | time: 434.73s | loss 0.0921 | mae 0.0730 | rmse 0.4996 | da 0.5030 | tda 0.5037 | ic 0.0029(ema:-0.0020) | icir 0.0511
+iter:  0 | loss: 0.096
+iter:100 | loss: 0.089
+iter:200 | loss: 0.091
+| end of epoch  28 | time: 435.49s | loss 0.0911 | mae 0.0733 | rmse 0.5000 | da 0.5038 | tda 0.5001 | ic 0.0079(ema:0.0009) | icir 0.1352
+iter:  0 | loss: 0.100
+iter:100 | loss: 0.106
+iter:200 | loss: 0.086
+| end of epoch  29 | time: 435.75s | loss 0.0908 | mae 0.0722 | rmse 0.4989 | da 0.5074 | tda 0.5037 | ic 0.0182(ema:0.0061) | icir 0.3227
+iter:  0 | loss: 0.076
+iter:100 | loss: 0.097
+iter:200 | loss: 0.102
+| end of epoch  30 | time: 435.44s | loss 0.0909 | mae 0.0752 | rmse 0.5017 | da 0.5011 | tda 0.4966 | ic 0.0064(ema:0.0062) | icir 0.1080
+  [Epoch 30 Test] MAE 0.0937 | RMSE 0.6670 | DA 0.4958 | tDA 0.4905 | IC -0.0155 | ICIR -0.2335 | DA_trend 0.4940 | DA_range 0.5005 | CCC 0.4824
+iter:  0 | loss: 0.073
+iter:100 | loss: 0.084
+iter:200 | loss: 0.112
+| end of epoch  31 | time: 435.59s | loss 0.0903 | mae 0.0741 | rmse 0.5006 | da 0.5075 | tda 0.5047 | ic 0.0123(ema:0.0080) | icir 0.1886
+iter:  0 | loss: 0.112
+iter:100 | loss: 0.097
+iter:200 | loss: 0.089
+| end of epoch  32 | time: 434.70s | loss 0.0905 | mae 0.0771 | rmse 0.5032 | da 0.5019 | tda 0.5076 | ic -0.0049(ema:0.0042) | icir -0.0859
+iter:  0 | loss: 0.094
+iter:100 | loss: 0.092
+iter:200 | loss: 0.089
+| end of epoch  33 | time: 434.03s | loss 0.0906 | mae 0.0763 | rmse 0.5020 | da 0.5033 | tda 0.5082 | ic -0.0033(ema:0.0019) | icir -0.0552
+iter:  0 | loss: 0.098
+iter:100 | loss: 0.087
+iter:200 | loss: 0.107
+| end of epoch  34 | time: 435.64s | loss 0.0904 | mae 0.0734 | rmse 0.5001 | da 0.5001 | tda 0.4962 | ic 0.0017(ema:0.0019) | icir 0.0303
+iter:  0 | loss: 0.088
+iter:100 | loss: 0.098
+iter:200 | loss: 0.082
+| end of epoch  35 | time: 435.61s | loss 0.0902 | mae 0.0736 | rmse 0.5000 | da 0.5054 | tda 0.5018 | ic 0.0115(ema:0.0048) | icir 0.2044
+  [Epoch 35 Test] MAE 0.0920 | RMSE 0.6651 | DA 0.5029 | tDA 0.4997 | IC -0.0065 | ICIR -0.0956 | DA_trend 0.5019 | DA_range 0.5054 | CCC 0.4944
+iter:  0 | loss: 0.094
+iter:100 | loss: 0.085
+iter:200 | loss: 0.089
+| end of epoch  36 | time: 434.90s | loss 0.0903 | mae 0.0736 | rmse 0.4996 | da 0.5049 | tda 0.5005 | ic 0.0194(ema:0.0092) | icir 0.3125
+iter:  0 | loss: 0.092
+iter:100 | loss: 0.094
+iter:200 | loss: 0.091
+| end of epoch  37 | time: 435.48s | loss 0.0900 | mae 0.0726 | rmse 0.4988 | da 0.5071 | tda 0.5058 | ic 0.0214(ema:0.0128) | icir 0.3461
+iter:  0 | loss: 0.089
+iter:100 | loss: 0.078
+iter:200 | loss: 0.082
+| end of epoch  38 | time: 435.62s | loss 0.0901 | mae 0.0726 | rmse 0.4987 | da 0.5086 | tda 0.5057 | ic 0.0121(ema:0.0126) | icir 0.1969
+iter:  0 | loss: 0.091
+iter:100 | loss: 0.094
+iter:200 | loss: 0.082
+| end of epoch  39 | time: 435.50s | loss 0.0900 | mae 0.0725 | rmse 0.4988 | da 0.5067 | tda 0.5052 | ic 0.0136(ema:0.0129) | icir 0.2292
+iter:  0 | loss: 0.077
+iter:100 | loss: 0.097
+iter:200 | loss: 0.125
+| end of epoch  40 | time: 435.43s | loss 0.0901 | mae 0.0735 | rmse 0.4999 | da 0.5002 | tda 0.4964 | ic 0.0040(ema:0.0103) | icir 0.0684
+  [Epoch 40 Test] MAE 0.0913 | RMSE 0.6646 | DA 0.5001 | tDA 0.4949 | IC -0.0113 | ICIR -0.1862 | DA_trend 0.4983 | DA_range 0.5048 | CCC 0.4887
+iter:  0 | loss: 0.093
+iter:100 | loss: 0.089
+iter:200 | loss: 0.093
+| end of epoch  41 | time: 434.47s | loss 0.0901 | mae 0.0728 | rmse 0.4987 | da 0.5057 | tda 0.5057 | ic 0.0143(ema:0.0115) | icir 0.2410
+iter:  0 | loss: 0.083
+iter:100 | loss: 0.088
+iter:200 | loss: 0.087
+| end of epoch  42 | time: 435.55s | loss 0.0901 | mae 0.0732 | rmse 0.4996 | da 0.5022 | tda 0.4985 | ic 0.0046(ema:0.0094) | icir 0.0795
+iter:  0 | loss: 0.102
+iter:100 | loss: 0.107
+iter:200 | loss: 0.086
+| end of epoch  43 | time: 435.56s | loss 0.0900 | mae 0.0736 | rmse 0.4994 | da 0.5073 | tda 0.5039 | ic 0.0159(ema:0.0114) | icir 0.2505
+iter:  0 | loss: 0.097
+iter:100 | loss: 0.083
+iter:200 | loss: 0.088
+| end of epoch  44 | time: 435.62s | loss 0.0899 | mae 0.0735 | rmse 0.4998 | da 0.5020 | tda 0.4974 | ic 0.0111(ema:0.0113) | icir 0.1782
+iter:  0 | loss: 0.088
+iter:100 | loss: 0.088
+iter:200 | loss: 0.096
+| end of epoch  45 | time: 433.24s | loss 0.0900 | mae 0.0741 | rmse 0.5004 | da 0.4997 | tda 0.4956 | ic 0.0038(ema:0.0090) | icir 0.0676
+  [Epoch 45 Test] MAE 0.0919 | RMSE 0.6653 | DA 0.4981 | tDA 0.4938 | IC -0.0063 | ICIR -0.0989 | DA_trend 0.4971 | DA_range 0.5006 | CCC 0.4922
+iter:  0 | loss: 0.080
+iter:100 | loss: 0.087
+iter:200 | loss: 0.105
+| end of epoch  46 | time: 435.73s | loss 0.0902 | mae 0.0735 | rmse 0.4999 | da 0.5033 | tda 0.4979 | ic 0.0014(ema:0.0068) | icir 0.0233
+iter:  0 | loss: 0.091
+iter:100 | loss: 0.074
+iter:200 | loss: 0.089
+| end of epoch  47 | time: 435.71s | loss 0.0898 | mae 0.0721 | rmse 0.4982 | da 0.5066 | tda 0.5049 | ic 0.0246(ema:0.0121) | icir 0.4281
+iter:  0 | loss: 0.091
+iter:100 | loss: 0.081
+iter:200 | loss: 0.092
+| end of epoch  48 | time: 435.70s | loss 0.0896 | mae 0.0726 | rmse 0.4991 | da 0.5058 | tda 0.5040 | ic 0.0020(ema:0.0091) | icir 0.0336
+iter:  0 | loss: 0.080
+iter:100 | loss: 0.104
+iter:200 | loss: 0.102
+| end of epoch  49 | time: 435.19s | loss 0.0901 | mae 0.0743 | rmse 0.5004 | da 0.5027 | tda 0.4990 | ic 0.0074(ema:0.0086) | icir 0.1495
+iter:  0 | loss: 0.085
+iter:100 | loss: 0.092
+iter:200 | loss: 0.087
+| end of epoch  50 | time: 377.41s | loss 0.0899 | mae 0.0721 | rmse 0.4985 | da 0.5065 | tda 0.5042 | ic 0.0101(ema:0.0090) | icir 0.1684
+  [Epoch 50 Test] MAE 0.0897 | RMSE 0.6631 | DA 0.5072 | tDA 0.5073 | IC 0.0188 | ICIR 0.2997 | DA_trend 0.5065 | DA_range 0.5089 | CCC 0.5020
+Run 1 Final Test: MAE 0.0898 | RMSE 0.6631 | DA 0.5089 | tDA 0.5090 | IC 0.0164 | ICIR 0.2613
+  [Regime] DA_trend 0.5090 | DA_range 0.5085 | DA_spread +0.0006 | CCC 0.5009
+  [RegimeMoE] gate: trend=0.433 range=0.295 granger=0.272
+Loading static graph from: ./data/sensor_graph/adj_mx.pkl
+Static graph loaded and normalized successfully.
+
+>>> Run 2/3 Begin Training...
+iter:  0 | loss: 0.924
+iter:100 | loss: 0.178
+iter:200 | loss: 0.143
+| end of epoch   1 | time: 350.49s | loss 0.2714 | mae 0.1147 | rmse 0.6910 | da 0.5080 | tda 0.5070 | ic 0.0222(ema:0.0222) | icir 0.5154
+iter:  0 | loss: 0.141
+iter:100 | loss: 0.140
+iter:200 | loss: 0.139
+| end of epoch   2 | time: 351.07s | loss 0.1395 | mae 0.0930 | rmse 0.5861 | da 0.5092 | tda 0.5078 | ic 0.0085(ema:0.0181) | icir 0.1667
+iter:  0 | loss: 0.126
+iter:100 | loss: 0.131
+iter:200 | loss: 0.099
+| end of epoch   3 | time: 350.91s | loss 0.1243 | mae 0.0863 | rmse 0.5551 | da 0.5106 | tda 0.5073 | ic 0.0037(ema:0.0138) | icir 0.0673
+iter:  0 | loss: 0.112
+iter:100 | loss: 0.133
+iter:200 | loss: 0.095
+| end of epoch   4 | time: 350.38s | loss 0.1131 | mae 0.0804 | rmse 0.5283 | da 0.5115 | tda 0.5087 | ic 0.0079(ema:0.0120) | icir 0.1366
+iter:  0 | loss: 0.107
+iter:100 | loss: 0.112
+iter:200 | loss: 0.119
+| end of epoch   5 | time: 350.74s | loss 0.1064 | mae 0.0776 | rmse 0.5190 | da 0.5115 | tda 0.5060 | ic 0.0135(ema:0.0125) | icir 0.2584
+  [Epoch 5 Test] MAE 0.0966 | RMSE 0.6876 | DA 0.5077 | tDA 0.5079 | IC 0.0102 | ICIR 0.1735 | DA_trend 0.5088 | DA_range 0.5049 | CCC 0.5028
+iter:  0 | loss: 0.097
+iter:100 | loss: 0.095
+iter:200 | loss: 0.102
+| end of epoch   6 | time: 350.96s | loss 0.1023 | mae 0.0837 | rmse 0.5247 | da 0.5062 | tda 0.5068 | ic 0.0050(ema:0.0102) | icir 0.1036
+iter:  0 | loss: 0.092
+iter:100 | loss: 0.103
+iter:200 | loss: 0.118
+| end of epoch   7 | time: 350.36s | loss 0.1003 | mae 0.0798 | rmse 0.5150 | da 0.5045 | tda 0.5000 | ic 0.0051(ema:0.0087) | icir 0.0848
+iter:  0 | loss: 0.113
+iter:100 | loss: 0.094
+iter:200 | loss: 0.095
+| end of epoch   8 | time: 350.17s | loss 0.0980 | mae 0.0818 | rmse 0.5165 | da 0.5014 | tda 0.4986 | ic 0.0071(ema:0.0082) | icir 0.1259
+iter:  0 | loss: 0.108
+iter:100 | loss: 0.095
+iter:200 | loss: 0.099
+| end of epoch   9 | time: 350.96s | loss 0.0970 | mae 0.0755 | rmse 0.5051 | da 0.5086 | tda 0.5066 | ic 0.0053(ema:0.0073) | icir 0.0943
+iter:  0 | loss: 0.105
+iter:100 | loss: 0.091
+iter:200 | loss: 0.096
+| end of epoch  10 | time: 350.58s | loss 0.0962 | mae 0.0742 | rmse 0.5033 | da 0.5104 | tda 0.5095 | ic 0.0134(ema:0.0092) | icir 0.2452
+  [Epoch 10 Test] MAE 0.0919 | RMSE 0.6682 | DA 0.5070 | tDA 0.5102 | IC 0.0136 | ICIR 0.2509 | DA_trend 0.5075 | DA_range 0.5059 | CCC 0.5034
+iter:  0 | loss: 0.101
+iter:100 | loss: 0.077
+iter:200 | loss: 0.097
+| end of epoch  11 | time: 351.05s | loss 0.0961 | mae 0.0784 | rmse 0.5094 | da 0.5030 | tda 0.4988 | ic -0.0011(ema:0.0061) | icir -0.0180
+iter:  0 | loss: 0.098
+iter:100 | loss: 0.100
+iter:200 | loss: 0.112
+| end of epoch  12 | time: 351.15s | loss 0.0955 | mae 0.0866 | rmse 0.5225 | da 0.4975 | tda 0.4952 | ic 0.0004(ema:0.0044) | icir 0.0062
+iter:  0 | loss: 0.104
+iter:100 | loss: 0.084
+iter:200 | loss: 0.102
+| end of epoch  13 | time: 350.36s | loss 0.0945 | mae 0.0783 | rmse 0.5073 | da 0.5034 | tda 0.5090 | ic -0.0001(ema:0.0030) | icir -0.0027
+iter:  0 | loss: 0.088
+iter:100 | loss: 0.089
+iter:200 | loss: 0.094
+| end of epoch  14 | time: 351.07s | loss 0.0941 | mae 0.0758 | rmse 0.5040 | da 0.5092 | tda 0.5074 | ic 0.0003(ema:0.0022) | icir 0.0044
+iter:  0 | loss: 0.089
+iter:100 | loss: 0.091
+iter:200 | loss: 0.097
+| end of epoch  15 | time: 349.92s | loss 0.0937 | mae 0.0766 | rmse 0.5047 | da 0.5034 | tda 0.5065 | ic -0.0067(ema:-0.0005) | icir -0.1262
+  [Epoch 15 Test] MAE 0.0952 | RMSE 0.6701 | DA 0.5068 | tDA 0.5123 | IC 0.0335 | ICIR 0.5046 | DA_trend 0.5087 | DA_range 0.5019 | CCC 0.5147
+iter:  0 | loss: 0.088
+iter:100 | loss: 0.094
+iter:200 | loss: 0.095
+| end of epoch  16 | time: 351.16s | loss 0.0941 | mae 0.0730 | rmse 0.5010 | da 0.5119 | tda 0.5085 | ic 0.0149(ema:0.0041) | icir 0.2716
+iter:  0 | loss: 0.091
+iter:100 | loss: 0.088
+iter:200 | loss: 0.096
+| end of epoch  17 | time: 350.40s | loss 0.0932 | mae 0.0767 | rmse 0.5056 | da 0.5023 | tda 0.5028 | ic 0.0119(ema:0.0065) | icir 0.2282
+iter:  0 | loss: 0.087
+iter:100 | loss: 0.090
+iter:200 | loss: 0.083
+| end of epoch  18 | time: 351.07s | loss 0.0940 | mae 0.0776 | rmse 0.5052 | da 0.5079 | tda 0.5071 | ic 0.0001(ema:0.0046) | icir 0.0021
+iter:  0 | loss: 0.088
+iter:100 | loss: 0.110
+iter:200 | loss: 0.081
+| end of epoch  19 | time: 351.07s | loss 0.0927 | mae 0.0751 | rmse 0.5025 | da 0.5083 | tda 0.5094 | ic -0.0026(ema:0.0024) | icir -0.0410
+iter:  0 | loss: 0.083
+iter:100 | loss: 0.097
+iter:200 | loss: 0.096
+| end of epoch  20 | time: 350.56s | loss 0.0929 | mae 0.0736 | rmse 0.5014 | da 0.5051 | tda 0.5014 | ic 0.0095(ema:0.0045) | icir 0.1647
+  [Epoch 20 Test] MAE 0.0915 | RMSE 0.6663 | DA 0.5040 | tDA 0.5015 | IC 0.0109 | ICIR 0.1915 | DA_trend 0.5025 | DA_range 0.5079 | CCC 0.4921
+iter:  0 | loss: 0.089
+iter:100 | loss: 0.100
+iter:200 | loss: 0.112
+| end of epoch  21 | time: 351.12s | loss 0.0924 | mae 0.0747 | rmse 0.5014 | da 0.5042 | tda 0.5015 | ic 0.0068(ema:0.0052) | icir 0.1249
+iter:  0 | loss: 0.101
+iter:100 | loss: 0.095
+iter:200 | loss: 0.098
+| end of epoch  22 | time: 350.27s | loss 0.0927 | mae 0.0751 | rmse 0.5019 | da 0.5073 | tda 0.5088 | ic 0.0018(ema:0.0042) | icir 0.0304
+iter:  0 | loss: 0.087
+iter:100 | loss: 0.098
+iter:200 | loss: 0.086
+| end of epoch  23 | time: 350.21s | loss 0.0922 | mae 0.0846 | rmse 0.5219 | da 0.4994 | tda 0.4960 | ic 0.0026(ema:0.0037) | icir 0.0490
+iter:  0 | loss: 0.094
+iter:100 | loss: 0.092
+iter:200 | loss: 0.088
+| end of epoch  24 | time: 350.92s | loss 0.0927 | mae 0.0752 | rmse 0.5011 | da 0.5047 | tda 0.5089 | ic 0.0047(ema:0.0040) | icir 0.0793
+iter:  0 | loss: 0.091
+iter:100 | loss: 0.100
+iter:200 | loss: 0.104
+| end of epoch  25 | time: 350.55s | loss 0.0933 | mae 0.0802 | rmse 0.5080 | da 0.5024 | tda 0.5081 | ic -0.0057(ema:0.0011) | icir -0.0963
+  [Epoch 25 Test] MAE 0.0986 | RMSE 0.6736 | DA 0.5080 | tDA 0.5147 | IC 0.0351 | ICIR 0.5433 | DA_trend 0.5112 | DA_range 0.4998 | CCC 0.5188
+iter:  0 | loss: 0.099
+iter:100 | loss: 0.091
+iter:200 | loss: 0.092
+| end of epoch  26 | time: 350.26s | loss 0.0918 | mae 0.0750 | rmse 0.5017 | da 0.5072 | tda 0.5082 | ic 0.0097(ema:0.0037) | icir 0.1847
+iter:  0 | loss: 0.097
+iter:100 | loss: 0.093
+iter:200 | loss: 0.089
+| end of epoch  27 | time: 350.90s | loss 0.0918 | mae 0.0740 | rmse 0.5006 | da 0.5072 | tda 0.5042 | ic 0.0223(ema:0.0092) | icir 0.3720
+iter:  0 | loss: 0.093
+iter:100 | loss: 0.086
+iter:200 | loss: 0.103
+| end of epoch  28 | time: 350.93s | loss 0.0907 | mae 0.0732 | rmse 0.5001 | da 0.5106 | tda 0.5084 | ic 0.0075(ema:0.0087) | icir 0.1206
+iter:  0 | loss: 0.068
+iter:100 | loss: 0.071
+iter:200 | loss: 0.069
+| end of epoch  29 | time: 350.86s | loss 0.0906 | mae 0.0723 | rmse 0.4995 | da 0.5058 | tda 0.5030 | ic 0.0019(ema:0.0067) | icir 0.0333
+iter:  0 | loss: 0.094
+iter:100 | loss: 0.093
+iter:200 | loss: 0.102
+| end of epoch  30 | time: 350.42s | loss 0.0905 | mae 0.0758 | rmse 0.5016 | da 0.5056 | tda 0.5073 | ic 0.0021(ema:0.0053) | icir 0.0326
+  [Epoch 30 Test] MAE 0.0939 | RMSE 0.6668 | DA 0.5093 | tDA 0.5147 | IC 0.0343 | ICIR 0.5464 | DA_trend 0.5113 | DA_range 0.5041 | CCC 0.5155
+iter:  0 | loss: 0.100
+iter:100 | loss: 0.082
+iter:200 | loss: 0.103
+| end of epoch  31 | time: 349.36s | loss 0.0907 | mae 0.0732 | rmse 0.4997 | da 0.5036 | tda 0.5006 | ic 0.0113(ema:0.0071) | icir 0.1798
+iter:  0 | loss: 0.099
+iter:100 | loss: 0.087
+iter:200 | loss: 0.083
+| end of epoch  32 | time: 350.94s | loss 0.0905 | mae 0.0745 | rmse 0.5006 | da 0.5046 | tda 0.5070 | ic 0.0104(ema:0.0081) | icir 0.2115
+iter:  0 | loss: 0.096
+iter:100 | loss: 0.094
+iter:200 | loss: 0.108
+| end of epoch  33 | time: 351.02s | loss 0.0902 | mae 0.0734 | rmse 0.4995 | da 0.5081 | tda 0.5050 | ic 0.0131(ema:0.0096) | icir 0.2194
+iter:  0 | loss: 0.103
+iter:100 | loss: 0.081
+iter:200 | loss: 0.083
+| end of epoch  34 | time: 350.98s | loss 0.0905 | mae 0.0726 | rmse 0.4992 | da 0.5083 | tda 0.5042 | ic 0.0208(ema:0.0130) | icir 0.4044
+iter:  0 | loss: 0.094
+iter:100 | loss: 0.086
+iter:200 | loss: 0.091
+| end of epoch  35 | time: 349.81s | loss 0.0902 | mae 0.0732 | rmse 0.4996 | da 0.5044 | tda 0.5047 | ic 0.0037(ema:0.0102) | icir 0.0681
+  [Epoch 35 Test] MAE 0.0914 | RMSE 0.6643 | DA 0.5076 | tDA 0.5126 | IC 0.0283 | ICIR 0.4186 | DA_trend 0.5097 | DA_range 0.5019 | CCC 0.5100
+iter:  0 | loss: 0.103
+iter:100 | loss: 0.093
+iter:200 | loss: 0.086
+| end of epoch  36 | time: 351.06s | loss 0.0900 | mae 0.0720 | rmse 0.4992 | da 0.5072 | tda 0.5045 | ic 0.0043(ema:0.0084) | icir 0.0790
+iter:  0 | loss: 0.079
+iter:100 | loss: 0.101
+iter:200 | loss: 0.084
+| end of epoch  37 | time: 350.89s | loss 0.0899 | mae 0.0743 | rmse 0.4998 | da 0.5053 | tda 0.5078 | ic 0.0070(ema:0.0080) | icir 0.1281
+iter:  0 | loss: 0.080
+iter:100 | loss: 0.082
+iter:200 | loss: 0.082
+| end of epoch  38 | time: 351.09s | loss 0.0899 | mae 0.0735 | rmse 0.5001 | da 0.5109 | tda 0.5072 | ic 0.0080(ema:0.0080) | icir 0.1194
+iter:  0 | loss: 0.096
+iter:100 | loss: 0.087
+iter:200 | loss: 0.091
+| end of epoch  39 | time: 350.37s | loss 0.0900 | mae 0.0722 | rmse 0.4994 | da 0.5090 | tda 0.5077 | ic 0.0121(ema:0.0092) | icir 0.2142
+iter:  0 | loss: 0.083
+iter:100 | loss: 0.092
+iter:200 | loss: 0.098
+| end of epoch  40 | time: 348.26s | loss 0.0899 | mae 0.0734 | rmse 0.5002 | da 0.5046 | tda 0.5019 | ic 0.0073(ema:0.0086) | icir 0.1154
+  [Epoch 40 Test] MAE 0.0911 | RMSE 0.6649 | DA 0.5019 | tDA 0.4984 | IC -0.0009 | ICIR -0.0140 | DA_trend 0.4993 | DA_range 0.5086 | CCC 0.4879
+iter:  0 | loss: 0.087
+iter:100 | loss: 0.079
+iter:200 | loss: 0.098
+| end of epoch  41 | time: 351.19s | loss 0.0898 | mae 0.0734 | rmse 0.5001 | da 0.5013 | tda 0.4982 | ic 0.0042(ema:0.0073) | icir 0.0713
+iter:  0 | loss: 0.093
+iter:100 | loss: 0.081
+iter:200 | loss: 0.093
+| end of epoch  42 | time: 351.19s | loss 0.0899 | mae 0.0723 | rmse 0.4990 | da 0.5055 | tda 0.5008 | ic 0.0115(ema:0.0086) | icir 0.2022
+iter:  0 | loss: 0.080
+iter:100 | loss: 0.084
+iter:200 | loss: 0.089
+| end of epoch  43 | time: 351.03s | loss 0.0899 | mae 0.0733 | rmse 0.5003 | da 0.5061 | tda 0.5037 | ic 0.0121(ema:0.0096) | icir 0.2236
+iter:  0 | loss: 0.078
+iter:100 | loss: 0.065
+iter:200 | loss: 0.082
+| end of epoch  44 | time: 350.17s | loss 0.0898 | mae 0.0732 | rmse 0.4990 | da 0.5067 | tda 0.5060 | ic -0.0006(ema:0.0066) | icir -0.0093
+iter:  0 | loss: 0.083
+iter:100 | loss: 0.104
+iter:200 | loss: 0.110
+| end of epoch  45 | time: 350.45s | loss 0.0897 | mae 0.0743 | rmse 0.4999 | da 0.5040 | tda 0.5074 | ic 0.0010(ema:0.0049) | icir 0.0172
+  [Epoch 45 Test] MAE 0.0922 | RMSE 0.6647 | DA 0.5085 | tDA 0.5144 | IC 0.0313 | ICIR 0.4860 | DA_trend 0.5100 | DA_range 0.5048 | CCC 0.5139
+iter:  0 | loss: 0.081
+iter:100 | loss: 0.091
+iter:200 | loss: 0.100
+| end of epoch  46 | time: 350.82s | loss 0.0897 | mae 0.0737 | rmse 0.5000 | da 0.5094 | tda 0.5097 | ic 0.0082(ema:0.0059) | icir 0.1327
+iter:  0 | loss: 0.078
+iter:100 | loss: 0.086
+iter:200 | loss: 0.095
+| end of epoch  47 | time: 350.97s | loss 0.0898 | mae 0.0730 | rmse 0.4993 | da 0.5049 | tda 0.5033 | ic 0.0145(ema:0.0085) | icir 0.2491
+iter:  0 | loss: 0.098
+iter:100 | loss: 0.095
+iter:200 | loss: 0.097
+| end of epoch  48 | time: 349.45s | loss 0.0892 | mae 0.0729 | rmse 0.4991 | da 0.5039 | tda 0.5020 | ic 0.0101(ema:0.0090) | icir 0.1815
+iter:  0 | loss: 0.071
+iter:100 | loss: 0.088
+iter:200 | loss: 0.094
+| end of epoch  49 | time: 351.04s | loss 0.0890 | mae 0.0719 | rmse 0.4984 | da 0.5119 | tda 0.5077 | ic 0.0139(ema:0.0104) | icir 0.2239
+iter:  0 | loss: 0.082
+iter:100 | loss: 0.102
+iter:200 | loss: 0.084
+| end of epoch  50 | time: 350.36s | loss 0.0889 | mae 0.0728 | rmse 0.4992 | da 0.5032 | tda 0.5010 | ic 0.0100(ema:0.0103) | icir 0.1812
+  [Epoch 50 Test] MAE 0.0904 | RMSE 0.6632 | DA 0.4981 | tDA 0.4945 | IC -0.0087 | ICIR -0.1320 | DA_trend 0.4952 | DA_range 0.5059 | CCC 0.4882
+Run 2 Final Test: MAE 0.0894 | RMSE 0.6626 | DA 0.5096 | tDA 0.5126 | IC 0.0163 | ICIR 0.2691
+  [Regime] DA_trend 0.5101 | DA_range 0.5081 | DA_spread +0.0020 | CCC 0.5023
+  [RegimeMoE] gate: trend=0.357 range=0.327 granger=0.316
+Loading static graph from: ./data/sensor_graph/adj_mx.pkl
+Static graph loaded and normalized successfully.
+
+>>> Run 3/3 Begin Training...
+iter:  0 | loss: 0.885
+iter:100 | loss: 0.174
+iter:200 | loss: 0.141
+| end of epoch   1 | time: 350.39s | loss 0.2640 | mae 0.1084 | rmse 0.6647 | da 0.5088 | tda 0.5052 | ic 0.0107(ema:0.0107) | icir 0.2245
+iter:  0 | loss: 0.141
+iter:100 | loss: 0.114
+iter:200 | loss: 0.107
+| end of epoch   2 | time: 351.14s | loss 0.1317 | mae 0.0925 | rmse 0.5701 | da 0.5098 | tda 0.5102 | ic 0.0071(ema:0.0096) | icir 0.1402
+iter:  0 | loss: 0.142
+iter:100 | loss: 0.110
+iter:200 | loss: 0.112
+| end of epoch   3 | time: 350.19s | loss 0.1160 | mae 0.0892 | rmse 0.5460 | da 0.5075 | tda 0.5109 | ic -0.0013(ema:0.0063) | icir -0.0240
+iter:  0 | loss: 0.108
+iter:100 | loss: 0.097
+iter:200 | loss: 0.100
+| end of epoch   4 | time: 351.20s | loss 0.1080 | mae 0.0805 | rmse 0.5227 | da 0.5100 | tda 0.5090 | ic 0.0061(ema:0.0063) | icir 0.1215
+iter:  0 | loss: 0.119
+iter:100 | loss: 0.110
+iter:200 | loss: 0.104
+| end of epoch   5 | time: 350.21s | loss 0.1028 | mae 0.0813 | rmse 0.5170 | da 0.5088 | tda 0.5090 | ic 0.0047(ema:0.0058) | icir 0.0781
+  [Epoch 5 Test] MAE 0.0989 | RMSE 0.6827 | DA 0.5077 | tDA 0.5109 | IC 0.0277 | ICIR 0.4133 | DA_trend 0.5087 | DA_range 0.5053 | CCC 0.5081
+iter:  0 | loss: 0.100
+iter:100 | loss: 0.096
+iter:200 | loss: 0.102
+| end of epoch   6 | time: 350.89s | loss 0.1008 | mae 0.0804 | rmse 0.5157 | da 0.5089 | tda 0.5092 | ic 0.0183(ema:0.0096) | icir 0.3361
+iter:  0 | loss: 0.098
+iter:100 | loss: 0.113
+iter:200 | loss: 0.104
+| end of epoch   7 | time: 350.35s | loss 0.0978 | mae 0.0749 | rmse 0.5061 | da 0.5093 | tda 0.5078 | ic 0.0076(ema:0.0090) | icir 0.1340
+iter:  0 | loss: 0.092
+iter:100 | loss: 0.088
+iter:200 | loss: 0.091
+| end of epoch   8 | time: 351.03s | loss 0.0966 | mae 0.0760 | rmse 0.5053 | da 0.5044 | tda 0.5050 | ic 0.0082(ema:0.0087) | icir 0.1468
+iter:  0 | loss: 0.113
+iter:100 | loss: 0.116
+iter:200 | loss: 0.090
+| end of epoch   9 | time: 350.95s | loss 0.0961 | mae 0.0775 | rmse 0.5063 | da 0.5076 | tda 0.5073 | ic 0.0158(ema:0.0108) | icir 0.2633
+iter:  0 | loss: 0.091
+iter:100 | loss: 0.099
+iter:200 | loss: 0.113
+| end of epoch  10 | time: 350.31s | loss 0.0952 | mae 0.0756 | rmse 0.5032 | da 0.5104 | tda 0.5071 | ic 0.0070(ema:0.0097) | icir 0.1138
+  [Epoch 10 Test] MAE 0.0937 | RMSE 0.6679 | DA 0.5056 | tDA 0.5080 | IC 0.0192 | ICIR 0.3030 | DA_trend 0.5058 | DA_range 0.5051 | CCC 0.5034
+iter:  0 | loss: 0.086
+iter:100 | loss: 0.085
+iter:200 | loss: 0.089
+| end of epoch  11 | time: 351.02s | loss 0.0956 | mae 0.0732 | rmse 0.5010 | da 0.5125 | tda 0.5100 | ic 0.0258(ema:0.0145) | icir 0.4790
+iter:  0 | loss: 0.085
+iter:100 | loss: 0.089
+iter:200 | loss: 0.100
+| end of epoch  12 | time: 350.28s | loss 0.0940 | mae 0.0752 | rmse 0.5034 | da 0.5061 | tda 0.5027 | ic 0.0100(ema:0.0132) | icir 0.1764
+iter:  0 | loss: 0.101
+iter:100 | loss: 0.092
+iter:200 | loss: 0.101
+| end of epoch  13 | time: 350.92s | loss 0.0941 | mae 0.0755 | rmse 0.5037 | da 0.5053 | tda 0.5029 | ic 0.0120(ema:0.0128) | icir 0.1996
+iter:  0 | loss: 0.098
+iter:100 | loss: 0.117
+iter:200 | loss: 0.098
+| end of epoch  14 | time: 350.48s | loss 0.0938 | mae 0.0748 | rmse 0.5030 | da 0.5029 | tda 0.5021 | ic 0.0057(ema:0.0107) | icir 0.0945
+iter:  0 | loss: 0.095
+iter:100 | loss: 0.080
+iter:200 | loss: 0.107
+| end of epoch  15 | time: 350.53s | loss 0.0933 | mae 0.0761 | rmse 0.5024 | da 0.5074 | tda 0.5072 | ic 0.0039(ema:0.0087) | icir 0.0708
+  [Epoch 15 Test] MAE 0.0946 | RMSE 0.6673 | DA 0.5012 | tDA 0.5010 | IC 0.0082 | ICIR 0.1316 | DA_trend 0.5009 | DA_range 0.5021 | CCC 0.5015
+iter:  0 | loss: 0.101
+iter:100 | loss: 0.091
+iter:200 | loss: 0.078
+| end of epoch  16 | time: 350.30s | loss 0.0932 | mae 0.0775 | rmse 0.5045 | da 0.5032 | tda 0.5092 | ic -0.0019(ema:0.0055) | icir -0.0340
+iter:  0 | loss: 0.086
+iter:100 | loss: 0.105
+iter:200 | loss: 0.091
+| end of epoch  17 | time: 350.86s | loss 0.0926 | mae 0.0778 | rmse 0.5047 | da 0.4995 | tda 0.4964 | ic 0.0056(ema:0.0055) | icir 0.0999
+iter:  0 | loss: 0.089
+iter:100 | loss: 0.078
+iter:200 | loss: 0.104
+| end of epoch  18 | time: 350.98s | loss 0.0928 | mae 0.0735 | rmse 0.5010 | da 0.5050 | tda 0.5048 | ic 0.0093(ema:0.0066) | icir 0.1660
+iter:  0 | loss: 0.098
+iter:100 | loss: 0.107
+iter:200 | loss: 0.109
+| end of epoch  19 | time: 351.06s | loss 0.0934 | mae 0.0742 | rmse 0.5004 | da 0.5125 | tda 0.5098 | ic 0.0184(ema:0.0102) | icir 0.2801
+iter:  0 | loss: 0.085
+iter:100 | loss: 0.079
+iter:200 | loss: 0.097
+| end of epoch  20 | time: 350.32s | loss 0.0932 | mae 0.0775 | rmse 0.5037 | da 0.5033 | tda 0.5093 | ic -0.0017(ema:0.0066) | icir -0.0280
+  [Epoch 20 Test] MAE 0.0956 | RMSE 0.6680 | DA 0.5085 | tDA 0.5159 | IC 0.0379 | ICIR 0.5615 | DA_trend 0.5110 | DA_range 0.5018 | CCC 0.5188
+iter:  0 | loss: 0.096
+iter:100 | loss: 0.090
+iter:200 | loss: 0.108
+| end of epoch  21 | time: 349.96s | loss 0.0923 | mae 0.0732 | rmse 0.4995 | da 0.5085 | tda 0.5054 | ic 0.0097(ema:0.0075) | icir 0.1716
+iter:  0 | loss: 0.104
+iter:100 | loss: 0.091
+iter:200 | loss: 0.092
+| end of epoch  22 | time: 350.35s | loss 0.0921 | mae 0.0736 | rmse 0.4993 | da 0.5063 | tda 0.5023 | ic 0.0176(ema:0.0105) | icir 0.2984
+iter:  0 | loss: 0.080
+iter:100 | loss: 0.084
+iter:200 | loss: 0.092
+| end of epoch  23 | time: 350.92s | loss 0.0909 | mae 0.0737 | rmse 0.5001 | da 0.5066 | tda 0.5068 | ic 0.0015(ema:0.0078) | icir 0.0268
+iter:  0 | loss: 0.079
+iter:100 | loss: 0.066
+iter:200 | loss: 0.085
+| end of epoch  24 | time: 351.05s | loss 0.0908 | mae 0.0719 | rmse 0.4991 | da 0.5074 | tda 0.5047 | ic 0.0004(ema:0.0056) | icir 0.0085
+iter:  0 | loss: 0.080
+iter:100 | loss: 0.079
+iter:200 | loss: 0.097
+| end of epoch  25 | time: 349.65s | loss 0.0905 | mae 0.0732 | rmse 0.5002 | da 0.5066 | tda 0.5044 | ic 0.0129(ema:0.0078) | icir 0.2090
+  [Epoch 25 Test] MAE 0.0910 | RMSE 0.6640 | DA 0.5068 | tDA 0.5059 | IC 0.0141 | ICIR 0.2115 | DA_trend 0.5067 | DA_range 0.5071 | CCC 0.4930
+iter:  0 | loss: 0.088
+iter:100 | loss: 0.086
+iter:200 | loss: 0.095
+| end of epoch  26 | time: 350.91s | loss 0.0906 | mae 0.0738 | rmse 0.5002 | da 0.5019 | tda 0.4968 | ic 0.0072(ema:0.0076) | icir 0.1195
+iter:  0 | loss: 0.099
+iter:100 | loss: 0.078
+iter:200 | loss: 0.096
+| end of epoch  27 | time: 350.84s | loss 0.0904 | mae 0.0738 | rmse 0.4998 | da 0.5067 | tda 0.5075 | ic 0.0060(ema:0.0071) | icir 0.1046
+iter:  0 | loss: 0.092
+iter:100 | loss: 0.089
+iter:200 | loss: 0.099
+| end of epoch  28 | time: 350.92s | loss 0.0906 | mae 0.0717 | rmse 0.4986 | da 0.5083 | tda 0.5068 | ic 0.0135(ema:0.0091) | icir 0.2722
+iter:  0 | loss: 0.086
+iter:100 | loss: 0.109
+iter:200 | loss: 0.097
+| end of epoch  29 | time: 350.97s | loss 0.0903 | mae 0.0725 | rmse 0.4995 | da 0.5052 | tda 0.5006 | ic 0.0054(ema:0.0080) | icir 0.0941
+iter:  0 | loss: 0.082
+iter:100 | loss: 0.102
+iter:200 | loss: 0.090
+| end of epoch  30 | time: 348.96s | loss 0.0902 | mae 0.0727 | rmse 0.4991 | da 0.5052 | tda 0.5041 | ic 0.0123(ema:0.0093) | icir 0.2336
+  [Epoch 30 Test] MAE 0.0906 | RMSE 0.6628 | DA 0.5095 | tDA 0.5140 | IC 0.0302 | ICIR 0.4221 | DA_trend 0.5116 | DA_range 0.5040 | CCC 0.5076
+iter:  0 | loss: 0.093
+iter:100 | loss: 0.088
+iter:200 | loss: 0.087
+| end of epoch  31 | time: 351.20s | loss 0.0901 | mae 0.0742 | rmse 0.5006 | da 0.5042 | tda 0.5063 | ic 0.0079(ema:0.0089) | icir 0.1414
+iter:  0 | loss: 0.092
+iter:100 | loss: 0.098
+iter:200 | loss: 0.095
+| end of epoch  32 | time: 350.80s | loss 0.0902 | mae 0.0728 | rmse 0.4994 | da 0.5053 | tda 0.5035 | ic 0.0016(ema:0.0067) | icir 0.0277
+iter:  0 | loss: 0.076
+iter:100 | loss: 0.102
+iter:200 | loss: 0.074
+| end of epoch  33 | time: 350.94s | loss 0.0901 | mae 0.0758 | rmse 0.5028 | da 0.4974 | tda 0.4928 | ic 0.0013(ema:0.0050) | icir 0.0212
+iter:  0 | loss: 0.094
+iter:100 | loss: 0.092
+iter:200 | loss: 0.093
+| end of epoch  34 | time: 310.63s | loss 0.0904 | mae 0.0744 | rmse 0.5001 | da 0.5036 | tda 0.5090 | ic 0.0029(ema:0.0044) | icir 0.0507
+iter:  0 | loss: 0.088
+iter:100 | loss: 0.122
+iter:200 | loss: 0.087
+| end of epoch  35 | time: 262.58s | loss 0.0900 | mae 0.0723 | rmse 0.4988 | da 0.5078 | tda 0.5075 | ic 0.0070(ema:0.0052) | icir 0.1265
+  [Epoch 35 Test] MAE 0.0900 | RMSE 0.6623 | DA 0.5089 | tDA 0.5130 | IC 0.0265 | ICIR 0.4289 | DA_trend 0.5104 | DA_range 0.5049 | CCC 0.5061
+iter:  0 | loss: 0.089
+iter:100 | loss: 0.092
+iter:200 | loss: 0.092
+| end of epoch  36 | time: 263.19s | loss 0.0901 | mae 0.0760 | rmse 0.5019 | da 0.5027 | tda 0.5084 | ic 0.0029(ema:0.0045) | icir 0.0541
+iter:  0 | loss: 0.085
+iter:100 | loss: 0.081
+iter:200 | loss: 0.096
+| end of epoch  37 | time: 263.06s | loss 0.0899 | mae 0.0734 | rmse 0.4995 | da 0.5051 | tda 0.5053 | ic 0.0066(ema:0.0052) | icir 0.1258
+iter:  0 | loss: 0.083
+iter:100 | loss: 0.092
+iter:200 | loss: 0.081
+| end of epoch  38 | time: 263.23s | loss 0.0899 | mae 0.0729 | rmse 0.4991 | da 0.5062 | tda 0.5017 | ic 0.0143(ema:0.0079) | icir 0.2436
+iter:  0 | loss: 0.120
+iter:100 | loss: 0.101
+iter:200 | loss: 0.088
+| end of epoch  39 | time: 263.17s | loss 0.0899 | mae 0.0724 | rmse 0.4991 | da 0.5063 | tda 0.5038 | ic -0.0033(ema:0.0045) | icir -0.0627
+iter:  0 | loss: 0.096
+iter:100 | loss: 0.102
+iter:200 | loss: 0.090
+| end of epoch  40 | time: 262.36s | loss 0.0893 | mae 0.0721 | rmse 0.4984 | da 0.5085 | tda 0.5065 | ic 0.0080(ema:0.0056) | icir 0.1339
+  [Epoch 40 Test] MAE 0.0897 | RMSE 0.6620 | DA 0.5073 | tDA 0.5126 | IC 0.0228 | ICIR 0.3527 | DA_trend 0.5084 | DA_range 0.5045 | CCC 0.5055
+iter:  0 | loss: 0.086
+iter:100 | loss: 0.094
+iter:200 | loss: 0.088
+| end of epoch  41 | time: 263.17s | loss 0.0893 | mae 0.0717 | rmse 0.4987 | da 0.5077 | tda 0.5041 | ic 0.0073(ema:0.0061) | icir 0.1501
+iter:  0 | loss: 0.092
+iter:100 | loss: 0.079
+iter:200 | loss: 0.086
+| end of epoch  42 | time: 263.10s | loss 0.0892 | mae 0.0726 | rmse 0.4988 | da 0.5075 | tda 0.5036 | ic 0.0118(ema:0.0078) | icir 0.2169
+iter:  0 | loss: 0.119
+iter:100 | loss: 0.088
+iter:200 | loss: 0.103
+| end of epoch  43 | time: 263.15s | loss 0.0891 | mae 0.0728 | rmse 0.4991 | da 0.5049 | tda 0.5043 | ic 0.0117(ema:0.0089) | icir 0.2198
+iter:  0 | loss: 0.081
+iter:100 | loss: 0.078
+iter:200 | loss: 0.098
+| end of epoch  44 | time: 263.04s | loss 0.0890 | mae 0.0731 | rmse 0.4989 | da 0.5079 | tda 0.5076 | ic 0.0070(ema:0.0084) | icir 0.1194
+iter:  0 | loss: 0.092
+iter:100 | loss: 0.103
+iter:200 | loss: 0.091
+| end of epoch  45 | time: 262.33s | loss 0.0891 | mae 0.0718 | rmse 0.4984 | da 0.5081 | tda 0.5052 | ic 0.0054(ema:0.0075) | icir 0.0961
+  [Epoch 45 Test] MAE 0.0893 | RMSE 0.6620 | DA 0.5045 | tDA 0.5047 | IC 0.0001 | ICIR 0.0009 | DA_trend 0.5033 | DA_range 0.5077 | CCC 0.4954
+iter:  0 | loss: 0.105
+iter:100 | loss: 0.104
+iter:200 | loss: 0.087
+| end of epoch  46 | time: 263.15s | loss 0.0890 | mae 0.0740 | rmse 0.5001 | da 0.5026 | tda 0.4992 | ic 0.0058(ema:0.0070) | icir 0.1122
+iter:  0 | loss: 0.100
+iter:100 | loss: 0.080
+iter:200 | loss: 0.084
+| end of epoch  47 | time: 263.24s | loss 0.0891 | mae 0.0720 | rmse 0.4983 | da 0.5109 | tda 0.5071 | ic 0.0130(ema:0.0088) | icir 0.2225
+iter:  0 | loss: 0.098
+iter:100 | loss: 0.094
+iter:200 | loss: 0.073
+| end of epoch  48 | time: 263.13s | loss 0.0888 | mae 0.0716 | rmse 0.4983 | da 0.5103 | tda 0.5067 | ic 0.0176(ema:0.0114) | icir 0.3159
+iter:  0 | loss: 0.085
+iter:100 | loss: 0.076
+iter:200 | loss: 0.083
+| end of epoch  49 | time: 263.19s | loss 0.0889 | mae 0.0716 | rmse 0.4982 | da 0.5093 | tda 0.5080 | ic 0.0153(ema:0.0126) | icir 0.2895
+iter:  0 | loss: 0.080
+iter:100 | loss: 0.084
+iter:200 | loss: 0.105
+| end of epoch  50 | time: 261.92s | loss 0.0890 | mae 0.0722 | rmse 0.4988 | da 0.5048 | tda 0.5023 | ic -0.0096(ema:0.0059) | icir -0.1809
+  [Epoch 50 Test] MAE 0.0900 | RMSE 0.6623 | DA 0.5045 | tDA 0.5059 | IC 0.0167 | ICIR 0.2625 | DA_trend 0.5050 | DA_range 0.5032 | CCC 0.5033
+Run 3 Final Test: MAE 0.0891 | RMSE 0.6618 | DA 0.5115 | tDA 0.5128 | IC 0.0196 | ICIR 0.3127
+  [Regime] DA_trend 0.5116 | DA_range 0.5114 | DA_spread +0.0002 | CCC 0.4992
+  [RegimeMoE] gate: trend=0.363 range=0.280 granger=0.357
+
+============================================================
+Summary over 3 runs
+============================================================
+Metric       | Mean       | Std       
+--------------------------------------
+MAE          | 0.0894     | 0.0003    
+RMSE         | 0.6625     | 0.0005    
+DA           | 0.5100     | 0.0011    
+TDA          | 0.5114     | 0.0018    
+IC           | 0.0175     | 0.0015    
+ICIR         | 0.2811     | 0.0226    
+--------------------------------------
+DA_TREND     | 0.5102     | 0.0011    
+DA_RANGE     | 0.5093     | 0.0015    
+CCC          | 0.5008     | 0.0013    
+DA_SPREAD    | 0.0009     | 0.0008      ← use_router=1 时通常>0
+============================================================
+
+[导出] 核心指标已写入 output/latest_metrics_M3.json
+
